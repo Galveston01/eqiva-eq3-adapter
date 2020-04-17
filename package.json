@@ -1,0 +1,54 @@
+{
+  "name": "eqiva-eq3-adapter",
+  "display_name": "Eqiva eQ-3",
+  "version": "0.1.3",
+  "description": "Eqiva eQ-3 thermostat support (calor BT)",
+  "author": "Galveston01",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "mozilla",
+    "iot",
+    "adapter",
+    "eqiva",
+    "eq-3",
+    "calor BT",
+    "thermostat"
+  ],
+  "homepage": "https://github.com/Galveston01/eqiva-eq3-adapter",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galveston01/eqiva-eq3-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galveston01/eqiva-eq3-adapter/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0"
+  },
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "SHA256SUMS",
+    "manifest.json",
+    "index.js",
+    "lib/"
+  ],
+  "moziot": {
+    "api": {
+      "min": 2,
+      "max": 2
+    },
+    "type": "adapter",
+    "plugin": true,
+    "exec": "{nodeLoader} {path}"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "noble": "^1.9.1"
+  }
+}
