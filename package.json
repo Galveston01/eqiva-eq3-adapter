@@ -48,7 +48,7 @@
     "exec": "{nodeLoader} {path}"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
-    "noble": "^1.9.1"
+    "@abandonware/noble": "^1.9.2-8",
+    "minimist": "^1.2.5"
   }
 }
