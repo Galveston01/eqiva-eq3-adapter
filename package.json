@@ -3,7 +3,7 @@
   "display_name": "Eqiva eQ-3",
   "version": "0.1.3",
   "description": "Eqiva eQ-3 thermostat support (calor BT)",
-  "author": "Galveston01",
+  "author": "bewee",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -17,14 +17,14 @@
     "calor BT",
     "thermostat"
   ],
-  "homepage": "https://github.com/Galveston01/eqiva-eq3-adapter",
+  "homepage": "https://github.com/bewee/eqiva-eq3-adapter",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Galveston01/eqiva-eq3-adapter.git"
+    "url": "https://github.com/bewee/eqiva-eq3-adapter.git"
   },
   "bugs": {
-    "url": "https://github.com/Galveston01/eqiva-eq3-adapter/issues"
+    "url": "https://github.com/bewee/eqiva-eq3-adapter/issues"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
